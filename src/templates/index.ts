@@ -7,3 +7,4 @@ export * from './Default';
 export * from './TryCatch';
 export * from './Show';
 export * from './Hide';
+export * from './Repeat';
