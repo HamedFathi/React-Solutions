@@ -1,14 +1,17 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
+import { If } from 'react-solutions';
 
 const HelloWorld = () => {
-  
+
   function sayHello() {
     alert('Hello, World!');
   }
-  
+
   return (
-    <button onClick={sayHello}>Click me!</button>
+    <If condition={true}>
+      <button onClick={sayHello}>Click me!</button>
+    </If>
   );
 };
 

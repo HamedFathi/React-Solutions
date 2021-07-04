@@ -12,7 +12,7 @@
     "removeComments": true,
     "strictNullChecks": true,
     "preserveConstEnums": true,
-    "sourceMap": true,
+    "sourceMap": false,
     "baseUrl": ".",
     "types": ["node"],
     "esModuleInterop": true

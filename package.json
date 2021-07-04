@@ -1,10 +1,10 @@
 {
   "name": "react-solutions",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React Solutions",
   "author": "Hamed Fathi",
   "license": "MIT",
-  "repository": "http://github.com/slorber/react-async-hook",
+  "repository": "https://github.com/HamedFathi/React-Solutions",
   "keywords": [
     "react"
   ],
@@ -13,7 +13,7 @@
     "npm": ">=5"
   },
   "main": "dist/index.js",
-  "module": "dist/react-async-hook.esm.js",
+  "module": "dist/react-solutions.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
