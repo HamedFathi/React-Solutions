@@ -1,6 +1,6 @@
 {
   "name": "react-solutions",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "React Solutions",
   "author": "Hamed Fathi",
   "license": "MIT",
@@ -46,6 +46,9 @@
     "setupFilesAfterEnv": [
       "@testing-library/jest-dom/extend-expect"
     ]
+  },
+  "dependencies": {
+    "styl-injector": "^1.4.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.14.1",

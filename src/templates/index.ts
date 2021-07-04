@@ -5,3 +5,5 @@ export * from './Switch';
 export * from './Case';
 export * from './Default';
 export * from './TryCatch';
+export * from './Show';
+export * from './Hide';
