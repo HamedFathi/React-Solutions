@@ -1,12 +1,14 @@
 {
   "name": "react-solutions",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "React Solutions",
   "author": "Hamed Fathi",
   "license": "MIT",
   "repository": "https://github.com/HamedFathi/React-Solutions",
   "keywords": [
-    "react"
+    "react",
+    "hooks",
+    "templates"
   ],
   "engines": {
     "node": ">=8",
