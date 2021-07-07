@@ -14,7 +14,7 @@ There are a lot of components that you can find details below.
 
 #### If/Else
 
-If your condition returns `true`, the `If` block renders your content.
+If your condition returns `true`, then the `If` block renders your content.
 
 ```js
 <If condition={YOUR_CONDITION}>
@@ -22,7 +22,7 @@ If your condition returns `true`, the `If` block renders your content.
 </If>
 ```
 
-If your condition returns `false`, the `IfNot` or `Else` block renders your content.
+If your condition returns `false`, then the `IfNot` or `Else` block renders your content.
 
 ```js
 <IfNot condition={YOUR_CONDITION}>
@@ -93,15 +93,13 @@ switcher = 'yellow';
 
 #### Show/Hide
 
-If your condition returns `true`, the `Show` block shows your content. (`display: visible`)
+If your condition returns `true`, then the `Show` block shows your content. (`display: visible`)
 
 ```js
 <Show condition={YOUR_CONDITION} tag="div">
     CONTENT
 </Show>
 ```
-
-`tag` wraps your content to show or hide it. the default is `span`.
 
 If your condition returns `true`, the `Hide` block hides your content. (`display: none`)
 
@@ -110,6 +108,8 @@ If your condition returns `true`, the `Hide` block hides your content. (`display
     CONTENT
 </Hide>
 ```
+
+* `tag` wraps your content to show or hide it. the default is `span`.
 
 #### Repeat
 
@@ -141,6 +141,8 @@ If you are looking for a `Repeat` component, it is for you!
 * `index`  : the index of the value in the array.
 * `length` : the length of the array.
 * `array`  : the whole array.
+
+The order of the parameters is important.
 
 #### Try/Catch
 
@@ -194,3 +196,8 @@ const renderComponentWithAPICallFailure = () => <SudoCode />;
   </Reject>
 </Promise>
 ```
+
+* `Pending` : Initial state, neither fulfilled (resolved) nor rejected.
+* `Resolve` : The operation was completed successfully.
+* `Reject`  : The operation failed.
+
