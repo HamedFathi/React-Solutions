@@ -10,7 +10,7 @@ npm i react-solutions
 
 ## How does it work?
 
-There are a lot of components that you can find details below.
+There are a lot of components that you can find details as following:
 
 #### If/Else
 
