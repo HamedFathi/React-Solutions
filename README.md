@@ -30,7 +30,7 @@ If your condition returns `false`, then the `IfNot` or `Else` block renders your
 </IfNot>
 
 <Else condition={YOUR_CONDITION}>
-    CONTENTS
+    CONTENT
 </Else>
 ```
 
@@ -200,4 +200,3 @@ const renderComponentWithAPICallFailure = () => <SudoCode />;
 * `Pending` : Initial state, neither fulfilled (resolved) nor rejected.
 * `Resolve` : The operation was completed successfully.
 * `Reject`  : The operation failed.
-
