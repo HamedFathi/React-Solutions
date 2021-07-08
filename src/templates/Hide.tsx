@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export const Hide: React.FC<{ condition: boolean | null | undefined, tag: string | undefined | null }>
+const Hide: React.FC<{ condition: boolean | null | undefined, tag: string | undefined | null }>
     = ({ condition, tag, children }) => {
         return (
             <> {!condition ?
@@ -11,3 +11,4 @@ export const Hide: React.FC<{ condition: boolean | null | undefined, tag: string
         )
     }
 
+export default Hide;

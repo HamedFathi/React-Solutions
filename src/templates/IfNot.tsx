@@ -1,6 +1,8 @@
 import * as React from "react";
 
-export const IfNot: React.FC<{ condition: boolean | null | undefined }>
+const IfNot: React.FC<{ condition: boolean | null | undefined }>
     = ({ condition, children }) => {
         return <>{!condition && children}</>
     }
+
+export default IfNot;

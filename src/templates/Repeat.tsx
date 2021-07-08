@@ -21,7 +21,7 @@ import * as React from "react";
   )}
 </Repeat>
 */
-export const Repeat: React.FC<{ for: any }> = ({ for: items = [], children }) => {
+const Repeat: React.FC<{ for: any }> = ({ for: items = [], children }) => {
     const len = items.length;
     return items.map((item: any, index: any) => {
         // @ts-ignore
@@ -33,3 +33,5 @@ export const Repeat: React.FC<{ for: any }> = ({ for: items = [], children }) =>
         });
     });
 };
+
+export default Repeat;

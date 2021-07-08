@@ -1,6 +1,7 @@
 import * as React from "react";
 
-export const If: React.FC<{ condition: boolean | null | undefined }>
+const If: React.FC<{ condition: boolean | null | undefined }>
     = ({ condition, children }) => {
         return <>{condition && children}</>
     }
+export default If;

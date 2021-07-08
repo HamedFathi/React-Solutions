@@ -2,15 +2,19 @@
 
 A bunch of useful React components and hooks. I tried to bring other JS frameworks template syntax to React ecosystem.
 
+---
 ## How to install it?
 
 ```bash
 npm i react-solutions
 ```
 
+---
 ## How does it work?
 
-There are a lot of components that you can find details as following:
+There are a lot of components and hooks that you can find the details as following:
+
+### Components
 
 #### If/Else
 
@@ -200,3 +204,28 @@ const renderComponentWithAPICallFailure = () => <SudoCode />;
 * `Pending` : Initial state, neither fulfilled (resolved) nor rejected.
 * `Resolve` : The operation was completed successfully.
 * `Reject`  : The operation failed.
+
+---
+### Hooks
+
+#### useDebounce
+
+this hooks forces a function to wait a certain amount of time (millisecond) before running again.
+
+```js
+const [term, setTerm] = useState('');
+useDebounce(()=> {
+  console.log(term); // debounced 1sec
+  // call search api ...
+  // return () => maybe cancel prev req 
+}, 1000 ,[term]);
+```
+
+#### useTrottle
+
+This hook ensures that a function is called at most once in a specified time period (millisecond).
+
+```js
+const [count, setCount] = useState(0);
+useThrottle(() => { console.log(count); }, 1000, [count]);
+```

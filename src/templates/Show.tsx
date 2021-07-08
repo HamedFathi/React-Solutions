@@ -1,6 +1,6 @@
 import * as React from "react";
 
-export const Show: React.FC<{ condition: boolean | null | undefined, tag: string | undefined | null }>
+const Show: React.FC<{ condition: boolean | null | undefined, tag: string | undefined | null }>
     = ({ condition, tag, children }) => {
         return (
             <> {condition ?
@@ -10,3 +10,5 @@ export const Show: React.FC<{ condition: boolean | null | undefined, tag: string
             </>
         )
     }
+
+export default Show;
