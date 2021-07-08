@@ -221,7 +221,7 @@ useDebounce(()=> {
 }, 1000 ,[term]);
 ```
 
-#### useTrottle
+#### useThrottle
 
 This hook ensures that a function is called at most once in a specified time period (millisecond).
 
