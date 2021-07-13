@@ -1,4 +1,4 @@
-export * from './templates';
-export * from './emitter/extra-mitt';
+export * from './components';
+export * from './emitter';
 export * from './utils';
 export * from './hooks';
