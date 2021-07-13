@@ -16,3 +16,24 @@ export function clearUndefined<T extends object>(obj: T): T {
     Object.keys(obj).forEach((key: string) => (obj[key] === undefined ? delete obj[key] : {}))
     return obj
 }
+export const deepFreeze = <T extends Record<string, any>>(obj: T): T => {
+    const propNames: string[] = Object.getOwnPropertyNames(obj);
+
+    for (const name of propNames) {
+        const value = obj[name];
+
+        if (value && typeof value === 'object') {
+            deepFreeze(value);
+        }
+    }
+
+    return Object.freeze(obj);
+};
+
+export const stringify = (data: object, space: string | number | undefined = undefined): string | void => {
+    try {
+        return JSON.stringify(data, null, space);
+    } catch (err) {
+        return;
+    }
+};

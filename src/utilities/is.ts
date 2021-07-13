@@ -60,6 +60,14 @@ export function isInstance<T extends new (...args: any[]) => any>(
 ): value is InstanceType<T> {
     return value instanceof ctor;
 }
+export const isURL = (url: string): boolean => {
+    try {
+        new URL(url);
+        return true;
+    } catch (e) {
+        return false;
+    }
+};
 
 
 
