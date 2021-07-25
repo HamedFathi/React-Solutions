@@ -12,7 +12,6 @@ export function isKeyOf<T extends object>(obj: T, k: keyof any): k is keyof T {
     return k in obj
 }
 export function clearUndefined<T extends object>(obj: T): T {
-    // @ts-expect-error
     Object.keys(obj).forEach((key: string) => (obj[key] === undefined ? delete obj[key] : {}))
     return obj
 }
