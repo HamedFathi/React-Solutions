@@ -26,16 +26,12 @@ If your condition returns `true`, then the `If` block renders your content.
 </If>
 ```
 
-If your condition returns `false`, then the `IfNot` or `Else` block renders your content.
+If your condition returns `false`, then the `IfNot` block renders your content.
 
 ```js
 <IfNot condition={YOUR_CONDITION}>
     CONTENTS
 </IfNot>
-
-<Else condition={YOUR_CONDITION}>
-    CONTENT
-</Else>
 ```
 
 #### Switch/Case
