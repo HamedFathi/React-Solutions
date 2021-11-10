@@ -1,20 +1,18 @@
-# React-Solutions
+![react](https://user-images.githubusercontent.com/8418700/141108315-edfea253-3fdd-4c51-907b-d11888ea33ed.png)
 
-A bunch of useful React components and hooks. I tried to bring other JS frameworks template syntax to React ecosystem.
+A bunch of useful React components, hooks, and helpers. I tried to bring other JS frameworks template syntax to React ecosystem.
 
----
 ## How to install it?
 
 ```bash
 npm i react-solutions
+
+yarn add react-solutions
 ```
 
----
-## How does it work?
+<hr/>
 
-There are a lot of components and hooks that you can find the details as following:
-
-### Components
+## Components
 
 #### If/Else
 
@@ -201,8 +199,10 @@ const renderComponentWithAPICallFailure = () => <SudoCode />;
 * `Resolve` : The operation was completed successfully.
 * `Reject`  : The operation failed.
 
----
-### Hooks
+
+<hr/>
+
+## Hooks
 
 #### useDebounce
 
@@ -225,3 +225,6 @@ This hook ensures that a function is called at most once in a specified time per
 const [count, setCount] = useState(0);
 useThrottle(() => { console.log(count); }, 1000, [count]);
 ```
+
+<hr/>
+<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
