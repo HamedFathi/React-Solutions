@@ -1,4 +1,5 @@
-![react](https://user-images.githubusercontent.com/8418700/141108315-edfea253-3fdd-4c51-907b-d11888ea33ed.png)
+![react](https://user-images.githubusercontent.com/8418700/141211476-ea912bba-447c-4ec5-a935-0f07ddf83d0f.png)
+
 
 A bunch of useful React components, hooks, and helpers. I tried to bring other JS frameworks template syntax to React ecosystem.
 
@@ -225,6 +226,3 @@ This hook ensures that a function is called at most once in a specified time per
 const [count, setCount] = useState(0);
 useThrottle(() => { console.log(count); }, 1000, [count]);
 ```
-
-<hr/>
-<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
