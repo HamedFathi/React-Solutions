@@ -226,3 +226,6 @@ This hook ensures that a function is called at most once in a specified time per
 const [count, setCount] = useState(0);
 useThrottle(() => { console.log(count); }, 1000, [count]);
 ```
+
+<hr/>
+<a href="https://icons8.com/icon/wPohyHO_qO1a/react">React icon by Icons8</a>
