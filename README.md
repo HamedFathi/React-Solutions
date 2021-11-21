@@ -1,5 +1,8 @@
-![react](https://user-images.githubusercontent.com/8418700/141211476-ea912bba-447c-4ec5-a935-0f07ddf83d0f.png)
+[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://opensource.org/licenses/MIT)
+[![npm version](https://badge.fury.io/js/react-solutions.svg)](https://badge.fury.io/js/react-solutions)
+[![Downloads](https://img.shields.io/npm/dm/react-solutions.svg)](https://www.npmjs.com/package/react-solutions)
 
+![react](https://user-images.githubusercontent.com/8418700/141211476-ea912bba-447c-4ec5-a935-0f07ddf83d0f.png)
 
 A bunch of useful React components, hooks, and helpers. I tried to bring other JS frameworks template syntax to React ecosystem.
 
